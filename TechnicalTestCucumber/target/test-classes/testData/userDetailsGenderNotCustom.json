@@ -1,0 +1,15 @@
+{
+ 	"firstName":"Jack",
+  "lastName" :"Rayan",
+  "username" :"JackRayan56",
+  "password" :"JackRayan18@",
+  "dob":{
+  			"date": "13",
+  			"month":"March",
+  			"year":"1992"
+  		},
+  "gender":"Male"
+}
+
+
+

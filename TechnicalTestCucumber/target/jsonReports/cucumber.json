@@ -1,0 +1,313 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-23T02:41:23.964Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9404998600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.Hooks.InitialiseBrower()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Google CreateAccount for User for which gender is not Custum",
+        "description": "",
+        "id": "signin-application;google-createaccount-for-user-for-which-gender-is-not-custum",
+        "after": [
+          {
+            "result": {
+              "duration": 4224729400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.Hooks.CloseBrower()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1238147500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is at SignIn page",
+            "match": {
+              "location": "stepDefinations.StepDefination.user_is_at_sign_in_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6115724700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User SignIn using firstName and lastName and userName and password",
+            "match": {
+              "location": "stepDefinations.StepDefination.user_sign_in_using_and_and_and()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5989400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Navigated to WelcomeGoogle page and enter DOB and gender",
+            "match": {
+              "location": "stepDefinations.StepDefination.navigated_to_welcomegoogle_page_and_enter_dob_and()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "if required Mobile verification phone and code",
+            "match": {
+              "location": "stepDefinations.StepDefination.mobile_verification_and()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on I agree on term and condition",
+            "match": {
+              "location": "stepDefinations.StepDefination.click_on_i_agree_on_term_and_condition()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 28922300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify Home page",
+            "match": {
+              "location": "stepDefinations.StepDefination.verify_home_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test1.1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-23T02:41:45.082Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7278637600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.Hooks.InitialiseBrower()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Google CreateAccount for User for which gender is not Custum",
+        "description": "",
+        "id": "signin-application;google-createaccount-for-user-for-which-gender-is-not-custum",
+        "after": [
+          {
+            "result": {
+              "duration": 4180248100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.Hooks.CloseBrower()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document\n  (Session info: chrome\u003d84.0.4147.135)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-183MPDU\u0027, ip: \u0027192.168.1.112\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002714.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\61435\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57992}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 8ffd29dc1da466959bb802886eb5754f\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy19.click(Unknown Source)\r\n\tat testPages.SignInTest.clickonCreateAccount(SignInTest.java:42)\r\n\tat stepDefinations.StepDefination.user_is_at_sign_in_page(StepDefination.java:26)\r\n\tat ✽.User is at SignIn page(file:///C:/Users/61435/Desktop/GoogleSignInAutomation/TechnicalTestCucumber/src/test/java/features/SignIn.feature:15)\r\n",
+              "duration": 364345200,
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "User is at SignIn page",
+            "match": {
+              "location": "stepDefinations.StepDefination.user_is_at_sign_in_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "User SignIn using firstName and lastName and userName and password",
+            "match": {
+              "location": "stepDefinations.StepDefination.user_sign_in_using_and_and_and()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Navigated to WelcomeGoogle page and enter DOB and gender is choice please provide preference",
+            "match": {
+              "location": "stepDefinations.StepDefination.navigated_to_welcomegoogle_page_and_enter_dob_and_something_as_gender_is_choice_please_provide()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "if required Mobile verification phone and code",
+            "match": {
+              "location": "stepDefinations.StepDefination.mobile_verification_and()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "Click on I agree on term and condition",
+            "match": {
+              "location": "stepDefinations.StepDefination.click_on_i_agree_on_term_and_condition()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "verify Home page",
+            "match": {
+              "location": "stepDefinations.StepDefination.verify_home_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test1.2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-23T02:41:56.951Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7061850700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.Hooks.InitialiseBrower()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "User Modify personal info and save the modified information",
+        "description": "",
+        "id": "signin-application;user-modify-personal-info-and-save-the-modified-information",
+        "after": [
+          {
+            "result": {
+              "duration": 4110621700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.Hooks.CloseBrower()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6317292700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User Login using username and password",
+            "match": {
+              "location": "stepDefinations.StepDefination.user_login_using_username_and_password()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10264633100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User navigate to Personal info Name and modify fisrtName and lastName",
+            "match": {
+              "location": "stepDefinations.StepDefination.user_navigate_to_personal_info_name_and_modify_fisrt_name_and_last_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 824395100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Click on save",
+            "match": {
+              "location": "stepDefinations.StepDefination.click_on_save()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 843917300,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Verify modified info",
+            "match": {
+              "location": "stepDefinations.StepDefination.verify_modified_info()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test2"
+          }
+        ]
+      }
+    ],
+    "name": "SignIn Application",
+    "description": "",
+    "id": "signin-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/SignIn.feature",
+    "tags": []
+  }
+]

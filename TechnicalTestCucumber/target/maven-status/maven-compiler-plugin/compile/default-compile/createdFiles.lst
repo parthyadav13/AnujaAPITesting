@@ -1,0 +1,9 @@
+pageObjects\WelcomeToGooglePage.class
+pageObjects\PrivacyPage.class
+pageObjects\WelcomePage.class
+utils\Base.class
+utils\GlobalValues.class
+pageObjects\MoreYouCanDoWithMobile.class
+pageObjects\SignInPage.class
+pageObjects\VerifyPhoneNumberPage.class
+pageObjects\CreateYourGoogleAccountPage.class
